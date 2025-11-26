@@ -314,24 +314,145 @@ bz_global_progress_snapshot (GtkWidget   *widget,
 
       if (theme == NULL || g_strcmp0 (theme, "accent-color") == 0)
         gtk_snapshot_append_color (snapshot, accent_color, &fraction_clip.bounds);
-      else if (g_strcmp0 (theme, "pride-rainbow-flag") == 0 ||
-               g_strcmp0 (theme, "lesbian-pride-flag") == 0 ||
-               g_strcmp0 (theme, "transgender-flag") == 0 ||
-               g_strcmp0 (theme, "nonbinary-flag") == 0 ||
-               g_strcmp0 (theme, "bisexual-flag") == 0 ||
-               g_strcmp0 (theme, "asexual-flag") == 0 ||
-               g_strcmp0 (theme, "pansexual-flag") == 0 ||
-               g_strcmp0 (theme, "aromantic-flag") == 0 ||
-               g_strcmp0 (theme, "genderfluid-flag") == 0 ||
-               g_strcmp0 (theme, "polysexual-flag") == 0 ||
-               g_strcmp0 (theme, "omnisexual-flag") == 0 ||
-               g_strcmp0 (theme, "aroace-flag") == 0 ||
-               g_strcmp0 (theme, "agender-flag") == 0 ||
-               g_strcmp0 (theme, "genderqueer-flag") == 0 ||
-               g_strcmp0 (theme, "intersex-flag") == 0 ||
-               g_strcmp0 (theme, "demigender-flag") == 0 ||
-               g_strcmp0 (theme, "biromantic-flag") == 0)
-        append_pride_flag (snapshot, &fraction_clip.bounds, theme);
+      else if (g_strcmp0 (theme, "sunset") == 0)
+        {
+          /* Sunset gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.494, 0.373, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.996, 0.706, 0.482, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "desert") == 0)
+        {
+          /* Desert gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.82, 0.416, 0.416, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.969, 0.698, 0.404, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "pastel-sky") == 0)
+        {
+          /* Pastel Sky gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.631, 0.769, 0.992, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.761, 0.914, 0.984, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "aurora") == 0)
+        {
+          /* Aurora gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.659, 1.0, 0.471, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.471, 1.0, 0.839, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.298, 0.765, 1.0, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "berry") == 0)
+        {
+          /* Berry gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.42, 0.796, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.541, 0.169, 0.886, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.18, 0.169, 1.0, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "monochrome") == 0)
+        {
+          /* Monochrome gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.059, 0.059, 0.059, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.42, 0.42, 0.42, 1.0 } },
+            { 1.0, (GdkRGBA) { 1.0, 1.0, 1.0, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "tropical") == 0)
+        {
+          /* Tropical gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.373, 0.427, 1.0 } },
+            { 0.5, (GdkRGBA) { 1.0, 0.765, 0.443, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.0, 0.824, 1.0, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "meadow") == 0)
+        {
+          /* Meadow gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.659, 0.878, 0.388, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.337, 0.651, 0.184, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "nebula") == 0)
+        {
+          /* Nebula gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.984, 0.761, 0.922, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.631, 0.549, 0.82, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.310, 0.675, 0.996, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "candy") == 0)
+        {
+          /* Candy gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.604, 0.620, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.996, 0.812, 0.937, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.965, 0.827, 0.396, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
+      else if (g_strcmp0 (theme, "ocean-deep") == 0)
+        {
+          /* Ocean Deep gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.169, 0.345, 0.463, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.306, 0.263, 0.463, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.106, 0.424, 0.659, 1.0 } }
+          };
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
+        }
       else
         gtk_snapshot_append_color (snapshot, accent_color, &fraction_clip.bounds);
     }

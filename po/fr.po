@@ -1548,72 +1548,48 @@ msgid "Accent Color"
 msgstr "Couleur d'accentuation"
 
 #: src/bz-preferences-dialog.c:33
-msgid "Pride Colors"
-msgstr "Couleurs de la fierté"
+msgid "Sunset"
+msgstr "Coucher de soleil"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
-msgstr "Couleurs de la fierté lesbienne"
+msgid "Desert"
+msgstr "Désert"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
-msgstr "Couleurs de la fierté transgenre"
+msgid "Pastel Sky"
+msgstr "Ciel pastel"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
-msgstr "Couleurs de la fierté non binaire"
+msgid "Aurora"
+msgstr "Aurore"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
-msgstr "Couleurs de la fierté bisexuel"
+msgid "Berry"
+msgstr "Baie"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
-msgstr "Couleurs de la fierté asexuel"
+msgid "Monochrome"
+msgstr "Monochrome"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
-msgstr "Couleurs de la fierté pansexuel"
+msgid "Tropical"
+msgstr "Tropical"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
-msgstr "Couleurs de la fierté aromantique"
+msgid "Meadow"
+msgstr "Prairie"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
-msgstr "Couleurs de la fierté fluide"
+msgid "Nebula"
+msgstr "Nébuleuse"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
-msgstr "Couleurs de la fierté polysexuel"
+msgid "Candy"
+msgstr "Bonbon"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
-msgstr "Couleurs de la fierté omnisexuel"
-
-#: src/bz-preferences-dialog.c:44
-msgid "Aroace Pride Colors"
-msgstr "Couleurs de la fierté aroace"
-
-#: src/bz-preferences-dialog.c:45
-msgid "Agender Pride Colors"
-msgstr "Couleurs du drapeau agenre"
-
-#: src/bz-preferences-dialog.c:46
-msgid "Genderqueer Pride Colors"
-msgstr "Couleurs du drapeau genderqueer"
-
-#: src/bz-preferences-dialog.c:47
-msgid "Intersex Pride Colors"
-msgstr "Couleurs du drapeau intersexe"
-
-#: src/bz-preferences-dialog.c:48
-msgid "Demigender Pride Colors"
-msgstr "Couleurs du drapeau demi-genre"
-
-#: src/bz-preferences-dialog.c:49
-msgid "Biromantic Pride Colors"
-msgstr "Couleurs du drapeau biromantique"
+msgid "Ocean Deep"
+msgstr "Océan profond"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
 msgid "Version History"
@@ -1979,3 +1955,329 @@ msgstr "Afficher les raccourcis"
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Quitter"
+
+#~ msgid "Manage Addons"
+#~ msgstr "Gérer les extensions"
+
+#, c-format
+#~ msgid ""
+#~ "Beginning remote entry retrieval while referencing %d blocklist(s)..."
+#~ msgstr ""
+#~ "Début de la récupération d'entrées distantes, en respectant %d liste(s) "
+#~ "rouge(s)..."
+
+#~ msgid ""
+#~ "Bazaar was not provided a curated content configuration. Contact your "
+#~ "operating system's support channels for assistance."
+#~ msgstr ""
+#~ "Aucune configuration de contenu recommandé n'a été fournie à Bazaar. "
+#~ "Contactez l'assistance de votre système d'exploitation pour obtenir de "
+#~ "l'aide."
+
+#~ msgid "Games"
+#~ msgstr "Jeux"
+
+#~ msgid "Graphics"
+#~ msgstr "Graphisme"
+
+#~ msgid "Office"
+#~ msgstr "Bureautique"
+
+#~ msgctxt "Project URL Type"
+#~ msgid "Homepage"
+#~ msgstr "Page d'accueil"
+
+#~ msgid "Share this application"
+#~ msgstr "Partager cette application"
+
+#~ msgid "Excludes shared components"
+#~ msgstr "Exclut les composants partagés"
+
+#~ msgid "Source code may not be available"
+#~ msgstr "Le code source n'est peut-être pas disponible"
+
+#~ msgid "Click for details"
+#~ msgstr "Cliquer pour plus de détails"
+
+#~ msgid "Repositories"
+#~ msgstr "Dépôts"
+
+#~ msgid "Open in browser"
+#~ msgstr "Ouvrir dans le navigateur"
+
+#, c-format
+#~ msgid "%'d Monthly Downloads"
+#~ msgstr "%'d téléchargements mensuels"
+
+#~ msgid "%B %-d, %Y"
+#~ msgstr "%d %B %Y"
+
+#~ msgid "%B %-d"
+#~ msgstr "%d %B"
+
+#~ msgid "Support this application"
+#~ msgstr "Soutenir cette application"
+
+#~ msgid "Run this application"
+#~ msgstr "Exécuter cette application"
+
+#~ msgid "Run"
+#~ msgstr "Exécuter"
+
+#~ msgid "View Store Page"
+#~ msgstr "Afficher la page du magasin"
+
+#~ msgid "Git Forge Star Counts"
+#~ msgstr "Nombre d'étoiles de la forge Git"
+
+#~ msgid "Not having a GitHub access token may trigger rate limits"
+#~ msgstr ""
+#~ "GitHub est susceptible de vous limiter si vous n'avez pas de jeton d'accès"
+
+#~ msgid "Show Only Flathub Apps"
+#~ msgstr "Afficher uniquement les applications de Flathub"
+
+#~ msgid "Wait for a brief pause to reduce system load"
+#~ msgstr "Patienter pendant un bref instant pour réduire la charge système"
+
+#~ msgid "Theme"
+#~ msgstr "Thème"
+
+#~ msgid "Sunset Gradient"
+#~ msgstr "Drapeau arc-en-ciel des fiertés"
+
+#~ msgid "Berry Gradient"
+#~ msgstr "Drapeau bisexuel"
+
+#~ msgid "Monochrome Gradient"
+#~ msgstr "Drapeau asexuel"
+
+#~ msgid "Share"
+#~ msgstr "Partager"
+
+#~ msgid "Loading"
+#~ msgstr "Chargement en cours"
+
+#~ msgid "Browse"
+#~ msgstr "Explorer"
+
+#~ msgid "App View"
+#~ msgstr "Vue Application"
+
+#~ msgid "Go Back"
+#~ msgstr "Retour"
+
+#~ msgid "View curated applications"
+#~ msgstr "Voir les applications recommandées"
+
+#~ msgid "View the latest on Flathub"
+#~ msgstr "Voir les nouveautés Flathub"
+
+#~ msgid "View installed applications"
+#~ msgstr "Voir les applications installées"
+
+#~ msgid "_Quit Service"
+#~ msgstr "_Quitter le service"
+
+#~ msgid "Settings & user data will be kept"
+#~ msgstr "Les paramètres et les données utilisateur seront conservées"
+
+#~ msgid "Updated Size"
+#~ msgstr "Taille après mise à jour"
+
+#~ msgid "Freed Space"
+#~ msgstr "Espace libéré"
+
+#~ msgid "Transactions"
+#~ msgstr "Opérations"
+
+#~ msgid "Up to date!"
+#~ msgstr "À jour !"
+
+#~ msgid "Calligraphy application page"
+#~ msgstr "Page de l'application Calligraphy"
+
+#~ msgid "Download graph for Blender"
+#~ msgstr "Graphique des téléchargements de Blender"
+
+#~ msgid "Open this image in the default image viewer"
+#~ msgstr "Ouvrir cette image dans la visionneuse d'images par défaut"
+
+#~ msgid "Copy this image to the clipboard"
+#~ msgstr "Copier cette image dans le presse-papiers"
+
+#~ msgid "Apps Of The Week"
+#~ msgstr "Applications de la semaine"
+
+#~ msgid "App Details"
+#~ msgstr "Détails de l'application"
+
+#~ msgid "License"
+#~ msgstr "Licence"
+
+#~ msgid "Download Statistics"
+#~ msgstr "Statistiques de téléchargement"
+
+#~ msgid "Show Downloads Over Time"
+#~ msgstr "Afficher l'évolution des téléchargements"
+
+#~ msgid "Remote repo name"
+#~ msgstr "Nom du dépôt distant"
+
+#, c-format
+#~ msgid "Released %x"
+#~ msgstr "Publiée le %x"
+
+#~ msgid "Downloads Over Time"
+#~ msgstr "Total de téléchargements"
+
+#~ msgid "Minimize Lower Bound"
+#~ msgstr "Minimiser la borne inférieure"
+
+#~ msgid "Maximize Upper Bound"
+#~ msgstr "Maximiser la borne supérieure"
+
+#~ msgid "Transactions Will Appear Here"
+#~ msgstr "Les opérations apparaîtront ici"
+
+#~ msgid "Halt the execution of transactions"
+#~ msgstr "Interrompre l'exécution des opérations"
+
+#~ msgid "Clear all finished transactions"
+#~ msgstr "Effacer toutes les opérations terminées"
+
+#~ msgid "Confirm Action"
+#~ msgstr "Confirmer l'action"
+
+#, c-format
+#~ msgid ""
+#~ "You are about to remove the following Flatpak:\n"
+#~ "\n"
+#~ "<b>%s</b>\n"
+#~ "<tt>%s</tt>\n"
+#~ "\n"
+#~ "Are you sure?"
+#~ msgstr ""
+#~ "Vous êtes sur le point de supprimer ces Flatpaks :\n"
+#~ "\n"
+#~ "<b>%s</b>\n"
+#~ "<tt>%s</tt>\n"
+#~ "\n"
+#~ "Voulez-vous vraiment continuer ?"
+
+#, c-format
+#~ msgid ""
+#~ "You are about to install the following Flatpak:\n"
+#~ "\n"
+#~ "<b>%s</b>\n"
+#~ "<tt>%s</tt>\n"
+#~ "\n"
+#~ "Are you sure?"
+#~ msgstr ""
+#~ "Vous êtes sur le point d'installer ces Flatpaks :\n"
+#~ "\n"
+#~ "<b>%s</b>\n"
+#~ "<tt>%s</tt>\n"
+#~ "\n"
+#~ "Voulez-vous vraiment continuer ?"
+
+#~ msgid "Resume the execution of transactions"
+#~ msgstr "Reprendre l'exécution des opérations"
+
+#~ msgid "Pause the execution of transactions"
+#~ msgstr "Mettre en pause l'exécution des opérations"
+
+#, c-format
+#~ msgid "Received %'d entries out of %'d (%0.1f seconds elapsed)"
+#~ msgstr "%'d entrées reçues sur %'d (%0.1f secondes écoulées)"
+
+#~ msgctxt "Project URL Type"
+#~ msgid "VCS Browser"
+#~ msgstr "Navigateur VCS"
+
+#~ msgid "Full Application View"
+#~ msgstr "Vue Application complète"
+
+#~ msgid "Change what content is shown when viewing applications"
+#~ msgstr ""
+#~ "Choisissez le contenu à afficher lorsque vous parcourez les applications"
+
+#~ msgid ""
+#~ "If you do not have an access token, turning this setting on may cause "
+#~ "GitHub to eventually rate limit you."
+#~ msgstr ""
+#~ "Si vous n'avez pas de jeton d'accès et que vous activez cette option, "
+#~ "GitHub est susceptible de vous limiter."
+
+#~ msgid "Type to filter"
+#~ msgstr "Saisissez pour filtrer"
+
+#~ msgid "Exclude results with proprietary licenses"
+#~ msgstr "Exclure les résultats avec des licences propriétaires"
+
+#~ msgid "Exclude results not originating from Flathub"
+#~ msgstr "Exclure les résultats ne provenant pas de Flathub"
+
+#~ msgid "Advanced"
+#~ msgstr "Avancé"
+
+#~ msgid "Open this link externally"
+#~ msgstr "Ouvrir ce lien dans une application externe"
+
+#~ msgid "Finished Tasks"
+#~ msgstr "Tâches terminées"
+
+#, c-format
+#~ msgid "%s to install"
+#~ msgstr "%s à installer"
+
+#~ msgid "Show Animated Background"
+#~ msgstr "Afficher un fond animé"
+
+#~ msgid "Whether to show the animated icon background on the home page"
+#~ msgstr "Affichez ou non le fond animé de la page d'accueil"
+
+#~ msgid "Keep the summary shorter, between 10 and 35 characters"
+#~ msgstr ""
+#~ "Réduisez la description afin qu'elle soit comprise entre 10 et 35 "
+#~ "caractères"
+
+#~ msgid "Main Bazaar window showing Blender"
+#~ msgstr "Fenêtre principale de Bazaar sur la page de Blender"
+
+#~ msgid ""
+#~ "The number of downloads in the last 30 days. Click to view this "
+#~ "application's download statistics."
+#~ msgstr ""
+#~ "Le nombre de téléchargements lors des 30 derniers jours. Cliquez pour "
+#~ "voir les statistiques de téléchargement de cette application."
+
+#~ msgid "Edit Permissions"
+#~ msgstr "Modifier les autorisations"
+
+#~ msgid "How the application looks"
+#~ msgstr "Apparence de l'application"
+
+#~ msgid "Appearance"
+#~ msgstr "Apparence"
+
+#~ msgid "Show animated background"
+#~ msgstr "Afficher un fond animé"
+
+#~ msgid "Match using regular expressions"
+#~ msgstr "Utiliser les expressions régulières"
+
+#~ msgid "Hide filtering and sorting behind a crossfade effect"
+#~ msgstr "Masquer les filtres et le tri à l'aide d'un effet de fondu enchaîné"
+
+#~ msgid "Installing"
+#~ msgstr "Installation"
+
+#~ msgid "Updating"
+#~ msgstr "Mise à jour"
+
+#~ msgid "Removing"
+#~ msgstr "Suppression"
+
+#~ msgid "BzInstalledPage"
+#~ msgstr "BzInstalledPage"
