@@ -2015,9 +2015,6 @@ msgstr "Quitter"
 #~ msgid "%B %-d"
 #~ msgstr "%d %B"
 
-#~ msgid "Support this application"
-#~ msgstr "Soutenir cette application"
-
 #~ msgid "Run this application"
 #~ msgstr "Exécuter cette application"
 
