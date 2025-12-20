@@ -2033,9 +2033,6 @@ msgstr "Quitter"
 #~ msgid "Share"
 #~ msgstr "Partager"
 
-#~ msgid "Loading"
-#~ msgstr "Chargement en cours"
-
 #~ msgid "Browse"
 #~ msgstr "Explorer"
 
